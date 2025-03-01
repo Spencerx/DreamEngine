@@ -39,6 +39,9 @@ DreamEngine is a unified framework that integrates multimodal encoders like Qwen
 <img width="1136" alt="截屏2025-02-27 23 15 30" src="https://github.com/user-attachments/assets/3e624f79-7d24-4b14-aa9d-46a8eee0c271" />
 
 ## Citation
+
+If you feel the work helpful, please kindly cite
+
 ```bibtex
 @misc{chen2025multimodalrepresentationalignmentimage,
       title={Multimodal Representation Alignment for Image Generation: Text-Image Interleaved Control Is Easier Than You Think}, 
