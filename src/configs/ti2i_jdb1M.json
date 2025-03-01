@@ -1,0 +1,4 @@
+[
+    {"type": "jsonl","path":"./datasets/jsonl_dataset/jdb_train_with_prompt.jsonl","task":"I2I","number":1000000,"image_column":"image","text_column":null},
+    {"type": "jsonl","path":"./datasets/jsonl_dataset/jdb_train_with_prompt.jsonl","task":"T2I","number":1000000,"image_column":"image","text_column":"prompt"}
+]
