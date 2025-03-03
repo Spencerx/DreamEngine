@@ -12,6 +12,10 @@
 <img alt="Static Badge" src="https://img.shields.io/badge/Paper-arXiv-red">
 </a>
 
+<a href="https://huggingface.co/leonardPKU/DreamEngine-ObjectFusion">
+<img alt="Static Badge" src="https://img.shields.io/badge/Model-HuggingFace-yellow">
+</a>
+
 
 </p>
 
