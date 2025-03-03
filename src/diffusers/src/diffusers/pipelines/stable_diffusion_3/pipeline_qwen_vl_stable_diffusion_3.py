@@ -595,6 +595,10 @@ class QwenVLStableDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, From
 
             image_inputs, video_inputs = process_vision_info(messages)
 
+            text_token_length = len(self.processor.tokenizer(text)['input_ids'][0])
+            max_sequence_length = int(text_token_length+image_inputs[0].size[0]*image_inputs[0].size[1]/28/28+image_inputs[1].size[0]*image_inputs[1].size[1]/28/28-2)
+
+
             inputs = self.processor(
             text=text,
             images=image_inputs,
@@ -635,6 +639,10 @@ class QwenVLStableDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, From
             image_caption = [i if isinstance(i, str) else "<|vision_start|><|image_pad|><|vision_end|>" for i in obj_names]
             text = ["Generate Image: "+"".join(image_caption).strip()]
             image_inputs, video_inputs = process_vision_info(messages)
+
+
+
+
 
             inputs = self.processor(
                                     text=text,
