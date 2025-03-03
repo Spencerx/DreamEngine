@@ -39,7 +39,7 @@ from peft import LoraConfig
 MODEL_PATH = "/home/data/cl/models"
 QWEN_PATH = f"{MODEL_PATH}/Qwen2-VL-2B-Instruct"
 SD3_PATH = f"{MODEL_PATH}/stable-diffusion-3.5-large"
-DreamEngine_CKPT_DIR="/home/data/cl/Dream-Engine/ckpt/any-regen-objectmodel60k_lmmditlora32"
+DreamEngine_CKPT_DIR= f"{MODEL_PATH}/DreamEngine-ObjectFusion" # https://huggingface.co/leonardPKU/DreamEngine-ObjectFusion
 
 # Model initialization
 qwenvl2_model = Qwen2VLForConditionalGeneration.from_pretrained(QWEN_PATH)
