@@ -23,6 +23,12 @@
 
 DreamEngine is a unified framework that integrates multimodal encoders like QwenVL with diffusion models through a two-stage training approach, enabling advanced text-image interleaved control and achieving state-of-the-art performance in generating images with complex, concept-merged inputs. 
 
+
+https://github.com/user-attachments/assets/f070c0e8-4ea2-4294-b878-63f564da1b79
+
+
+
+
 Updates:
 - 2025-03-03: Release checkpoint and a demo for text-guided object fusion.
 
@@ -32,7 +38,7 @@ Updates:
 ```bash
 bash setup.sh
 
-# setup the dirs in demo.py
+# setup the paths in demo.py
 python src/scripts/eval/demo.py
 
 ```
