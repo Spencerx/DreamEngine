@@ -287,13 +287,13 @@ with gr.Blocks() as demo:
     gr.Examples(
         examples=[
             [
-                Image.open("/home/data/cl/Dream-Engine/test_images/test_image/1665_Girl_with_a_Pearl_Earring.jpg"),Image.open("/home/data/cl/Dream-Engine/test_images/orange_cat.png"), 
+                Image.open("./src/scripts/eval/1665_Girl_with_a_Pearl_Earring.jpg"),Image.open("./src/scripts/eval/orange_cat.png"), 
                 "girl","cat",
                 "a girl with a cat",
                 3.5, 768, 28, 136147
             ],
             [
-                Image.open("/home/data/cl/Dream-Engine/test_images/orange_cat.png"), Image.open("/home/data/cl/Dream-Engine/test_images/forest.png"),
+                Image.open("./src/scripts/eval/orange_cat.png"), Image.open("./src/scripts/eval/forest.png"),
                 "cat","forest",
                 "a cat sitting in the forest",
                 3.5, 1024, 28, 339582
